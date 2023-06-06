@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+
+
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('../Fonts/IRANSansWeb.eot');
+    src: url('../Fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/IRANSansWeb.woff2') format('woff2'),
+         url('../Fonts/IRANSansWeb.woff') format('woff'),
+         url('../Fonts/IRANSansWeb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: IRANSansWeb;
+    src: url('../Fonts/IRANSansWeb_UltraLight.eot');
+    src: url('../Fonts/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/IRANSansWeb_UltraLight.woff2') format('woff2'),
+         url('../Fonts/IRANSansWeb_UltraLight.woff') format('woff'),
+         url('../Fonts/IRANSansWeb_UltraLight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: IRANSansWeb;
+    src: url('../Fonts/IRANSansWeb_Light.eot');
+    src: url('../Fonts/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/IRANSansWeb_Light.woff2') format('woff2'),
+         url('../Fonts/IRANSansWeb_Light.woff') format('woff'),
+         url('../Fonts/IRANSansWeb_Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: IRANSansWeb;
+    src: url('../Fonts/IRANSansWeb_Medium.eot');
+    src: url('../Fonts/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/IRANSansWeb_Medium.woff2') format('woff2'),
+         url('../Fonts/IRANSansWeb_Medium.woff') format('woff'),
+         url('../Fonts/IRANSansWeb_Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: IRANSansWeb;
+    src: url('../Fonts/IRANSansWeb_Bold.eot');
+    src: url('../Fonts/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/IRANSansWeb_Bold.woff2') format('woff2'),
+         url('../Fonts/IRANSansWeb_Bold.woff') format('woff'),
+         url('../Fonts/IRANSansWeb_Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  *{
+    user-select: none;
+  }
+
+@tailwind utilities;
